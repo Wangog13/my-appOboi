@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../../../favicon.ico">
+
+		<title>Starter Template for Bootstrap</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<link href="/css/._fixed.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+		<!-- Custom styles for this template -->
+		<link href="/css/main.css"  type="text/css" rel="stylesheet">
+		<link href="/fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+		<script src="/fancybox-master/dist/jquery.fancybox.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="/fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
+
+     <script src="js/smooth-scroll.min.js"></script>
+ <script>
+ var scroll = new SmoothScroll('a[href*="#"]', {
+
+  // Selectors
+  ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+  header: null, // Selector for fixed headers (must be a valid CSS selector)
+  topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
+
+  // Speed & Duration
+  speed: 500, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+  speedAsDuration: false, // If true, use speed as the total duration of the scroll animation
+  durationMax: null, // Integer. The maximum amount of time the scroll animation should take
+  durationMin: null, // Integer. The minimum amount of time the scroll animation should take
+  clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+  offset: function (anchor, toggle) {
+
+    // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+    // This example is a function, but you could do something as simple as `offset: 25`
+
+    // An example returning different values based on whether the clicked link was in the header nav or not
+    if (toggle.classList.closest('.my-header-nav')) {
+      return 25;
+    } else {
+      return 50;
+    }
+
+  },
+
+  // Easing
+  easing: 'easeInOutCubic', // Easing pattern to use
+  customEasing: function (time) {
+
+    // Function. Custom easing pattern
+    // If this is set to anything other than null, will override the easing option above
+
+    // return <your formulate with time as a multiplier>
+
+    // Example: easeInOut Quad
+    return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+
+  },
+
+  // History
+  updateURL: true, // Update the URL on scroll
+  popstate: true, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
+
+  // Custom Events
+  emitEvents: true // Emit custom events
+
+});
+</script>
+	</head>
+
+	
+	<body>
+		
+		<header id="header" class="header ">
+		
+			  	
+		<nav class="navbar navbar-expand-lg  navbar-dark bg-light  ">
+
+			<a class="navbar-brand   mx-auto"><img  src="/img/loko.jpg "  width="130"> </a>
+			
+<div class="d-flex flex-column mx-auto">
+	
+ 
+  <div class="text-center"><a href="http://instagram.com/di_tex_salonshtor/" ><img src="https://img.icons8.com/color/48/000000/instagram-new.png" width="30px"><a href="https://vk.com/id441049816" ><img src="https://img.icons8.com/color/48/000000/vk-com.png" width="30px"> </a>
++7 919 036 14 07</div>
+<div class="adress text-center"> г. Обнинск ,ул. Курчатова, д.19а , здание ,, Дом Быта ,, .офис 205</div>
+  <div class="text-center"><a href="#" > </a>
+Выезд дизайнера в регионы</div>
+<div class="border-adress"></div>
+</div>
+			</div>
+			 
+                  
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar1">
+				
+			  <ul class="navbar-nav   text-center nav-tabs  container   d-flex justify-content-end mr-auto ">
+			  	
+   <li class="nav-item">
+    <a class="nav-link"  href="index.html">Главная</a>
+  </li>
+ 
+  <li class="nav-item">
+    <a class="nav-link" data-scroll href="#gallery">Портфолио</a>
+  </li>
+ 
+ 
+  
+<li class="nav-item">
+  <a class="nav-link" data-scroll href="#contact"> Контакты</a>
+</li>
+</ul>
+</div>
+
+
+			</div>	
+
+
+		</nav>
+	
+	
+   
+
+	<div class="home-inner">
+
+		<div class="container">
+			<div class="fon-img">
+		<div class="row">
+			<div class="col-md-12">
+				
+<div class="caption text-center">
+
+	<h1>Стильные шторы на заказ</h1>
+	
+
+ </div>
+ 	<div class="muted-text">
+ <h2 class="text-center">Салон по пошиву штор и текстиля</h2>
+ <h5 class="text-white text-center">Пошив штор , покрывал, декоративных подушек, чехлов на мебель</h5>
+ <h2 class="text-item-caption text-center">Любой сложности </h2>
+ <h5 class="text-white text-center">карнизы, рулонные шторы, жалюзи </h5>
+</div>
+
+<div class="border-h1"></div>
+		 <p><a class="button mx-auto"  data-scroll href="#record">Записаться на замер</a></p>
+		</div>
+		</div>
+	</div>
+			
+	
+
+		
+ </div>
+ 
+
+
+</header>
+
+
+
+
+
+
+
+<div class="gallery" id="gallery">
+ <div class="container gallery-container shadow-lg p-3 mb-5 bg-white rounded ">
+
+    <div class="text-port ">Наше портфолио</div>
+
+   
+    
+    <div class="tz-gallery" id="tz-gallery">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/ZxceDk_KzKc.jpg">
+                    <img src="../img/portfolio/foolscreen/12.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/zk6rgqUysDg.jpg">
+                    <img src="../img/portfolio/foolscreen/13.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/WeTlZCA6XTU.jpg">
+                    <img src="../img/portfolio/foolscreen/14.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/WeTlZCA6XTU.jpg">
+                    <img src="../img/portfolio/foolscreen/15.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/sSmT8Fx-OxA.jpg">
+                <img src="../img/portfolio/foolscreen/16.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/qfIy5G34kL0.jpg">
+                 <img src="../img/portfolio/foolscreen/17.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/qAX0AUcWPhc.jpg">
+                      <img src="../img/portfolio/foolscreen/18.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/OG9bVDgD5oY.jpg">
+                  <img src="../img/portfolio/foolscreen/19.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/nBChP_roOUI.jpg">
+                       <img src="../img/portfolio/foolscreen/20.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/ML_gSRJzlvE.jpg">
+                  <img src="../img/portfolio/foolscreen/9.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/hdbGp5bxudg.jpg">
+                    <img src="../img/portfolio/foolscreen/10.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a class="lightbox" href="../img/portfolio/n3gtkZ_3De0.jpg">
+                    <img src="../img/portfolio/foolscreen/11.jpg" alt="Tunnel">
+                </a>
+            </div>
+ 
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+
+
+
+
+
+     <!-- Contact -->
+     <div class="contact" id="contact">
+        <div id="contact2" class="mad_section with_bg_2">
+          
+          <div class="container">
+            
+            <div class="mad_contact_items mad_flex_list">
+              
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+                  
+                  <div class="mad_contact_item">
+                  <img src="https://img.icons8.com/ios/50/000000/address.png">
+                    <h4 class="lnr lnr-location">Наш адрес</h4>
+                    <p>г. Обнинск ,ул. Курчатова<br>
+                    , д.19а , здание ,, Дом Быта ,, .офис 205</p>
+                  
+                  </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  
+                  <div class="mad_contact_item">
+                  	<img src="https://img.icons8.com/ios/50/000000/watch.png">
+                    <h4 class="lnr lnr-clock">Рабочее время</h4>
+                    <p>Работаем c Пн - Пт с 10:00 до 18:00<br>
+                    	Сб с 10:00 до 16:00,<br>
+                    	Воскресенье: выходной
+                     </p>
+                  </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  
+                  <div class="mad_contact_item">
+                  	<img src="https://img.icons8.com/ios/50/000000/phone-not-being-used.png">
+                    <h4 class="lnr lnr-calendar-full">Телефон для связи</h4>
+                    
+                    <a href="#">Телефон:+7 919 036 14 07</a>
+                  </div>
+
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  
+                  
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+</div>
+
+
+
+<div class="record" id="record">
+    <div class="form_item_box">
+    
+
+<section id="contact"  class="contact bg-light">
+	 <h3 class="section-heading text-uppercase text-center mb-5 mt-5  text-dark">Записаться на замер</h3>
+   <div class="container">
+<div class="row">
+
+          <div class="col-lg-12">
+
+          <form method="POST" action="https://formspree.io/shaburova-e@inbox.ru">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" name="name" input class="form-control" id="name" input type="text" placeholder="Ваше имя *" required="required" data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                <div class="form-group">
+                    <input type="text" name="name" input class="form-control" id="name" input type="text" placeholder="Номер телефона *" required="required" data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea name="message" textarea class="form-control" id="message" placeholder="Cопровождительный текст" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" input type="submit">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+ 
+<footer class="page-footer font-small indigo">
+
+   
+
+
+
+      <!-- Grid row-->
+
+     
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+  <!-- Footer -->
+
+		<!-- Bootstrap core JavaScript ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+		<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="/dist/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+	</body>
+</html>
